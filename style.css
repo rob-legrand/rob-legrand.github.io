@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+@import url(fonts/fonts.css);
+
+:root {
+   --computer-modern: "Computer Modern Dunhill", "Computer Modern", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "TeX Gyre Schola", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
+   --no-numbers: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Gentium, Palatino, "Palatino Linotype", Didot, serif; /* for non-number things */
+   --railway: Railway, Futura, "Century Gothic", Geneva, Tahoma, Verdana, sans-serif;
+   --with-numbers: Gentium, Palatino, "Palatino Linotype", "Goudy Old Style", Didot, serif; /* for text with numbers */
+}
+
+a {
+   text-decoration: none;
+}
+
+a:link {
+   color: #806040;
+}
+
+a:visited {
+   color: #406080;
+}
+
+a:hover {
+   bottom: 1px;
+   position: relative;
+   text-decoration: underline;
+}
+
+a:active {
+   color: #606060;
+}
+
+body {
+   align-items: center;
+   background-color: #f4f8fc;
+   background-image: url(frac.gif);
+   color: #002040;
+   display: flex;
+   flex-wrap: wrap;
+/* font-family: Geneva, Tahoma, Verdana, Arial, sans-serif; */
+   font-family: Gentium, Palatino, "Palatino Linotype", "Goudy Old Style", Didot, serif; /* for text with numbers */
+   justify-content: center;
+   text-rendering: optimizeLegibility;
+}
+
+fieldset {
+   background-color: #f4f8fc;
+   background-image: none;
+   border-color: #a0c0e0;
+   border-style: solid;
+   border-width: 1px 0px;
+   margin: 0em 1em 1em 1em;
+}
+
+legend {
+   background-color: #f4f8fc;
+   background-image: none;
+   border: none;
+/* font-family: "Computer Modern", "Theano Modern Regular", Didot, Palatino, "Palatino Linotype", serif; */
+   font-family: Gentium, Palatino, "Palatino Linotype", "Goudy Old Style", Didot, serif; /* for text with numbers */
+   font-size: 150%;
+   margin: none;
+   padding: 3px 9px;
+}
+
+p.extra-info {
+   text-align: center;
+}
+
+table {
+   border-collapse: separate;
+   border-color: #d0e0f0;
+   border-spacing: 1px;
+   border-style: outset;
+   border-width: thin;
+   empty-cells: show;
+}
+
+table td, table th {
+   border-color: #d0e0f0;
+   border-style: inset;
+   border-width: thin;
+   padding: 3px 9px;
+}
+
+table ul {
+   margin: 0px 0px 0px 1.5em;
+   padding: 0px;
+}
+
+table.courses td, table.courses th {
+   padding: 9px;
+}
+
+table.finals-week {
+   text-align: center;
+}
+
+table.schedule {
+   text-align: center;
+}
+
+table.schedule td.classroom {
+   border-color: #50b050;
+   border-style: solid;
+   border-width: medium;
+}
+
+table.schedule td.meal {
+   border-color: #6060a0;
+   border-style: solid;
+   border-width: medium;
+}
+
+table.schedule td.office {
+   border-color: #a85858;
+   border-style: solid;
+   border-width: medium;
+}
+
+.contact-info {
+   align-items: center;
+   display: grid;
+   grid-template-areas:
+      "email-address"
+      "office-phone"
+      "office-location"
+      "office-hours";
+}
+
+.contact-info > .email-address {
+   grid-area: email-address;
+}
+
+.contact-info > .office-hours {
+   grid-area: office-hours;
+}
+
+.contact-info > .office-location {
+   grid-area: office-location;
+}
+
+.contact-info > .office-phone {
+   grid-area: office-phone;
+}
+
+.education {
+   align-items: center;
+   display: grid;
+   grid-template-areas:
+      "washu-logo washu-education"
+      "tamu-logo  tamu-education";
+}
+
+.education img {
+   margin: 3px 0px;
+}
+
+.education ul {
+   margin: 0px;
+}
+
+.education > .tamu-education {
+   grid-area: tamu-education;
+}
+
+.education > .tamu-logo {
+   grid-area: tamu-logo;
+}
+
+.education > .washu-education {
+   grid-area: washu-education;
+}
+
+.education > .washu-logo {
+   grid-area: washu-logo;
+}
+
+.email {
+   font-family: Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+}
+
+.endtag {
+   font-size: 60%;
+   font-style: italic;
+   margin-left: 2em;
+}
+
+.overall-info {
+   align-items: center;
+   display: grid;
+   grid-template-areas:
+      "prof-name       university-logo prof-rank"
+      "prof-name       university-logo department"
+      "prof-name       university-logo college"
+      "prof-name       university-logo university"
+}
+
+.overall-info > .college {
+/* font-family: "Computer Modern", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif; */
+   font-family: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Gentium, Palatino, "Palatino Linotype", Didot, serif; /* for non-number things */
+   font-family: var(--computer-modern);
+   font-size: 125%;
+   grid-area: college;
+}
+
+.overall-info > .department {
+/* font-family: "Computer Modern", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif; */
+   font-family: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Gentium, Palatino, "Palatino Linotype", Didot, serif; /* for non-number things */
+   font-family: var(--computer-modern);
+   font-size: 125%;
+   grid-area: department;
+}
+
+.overall-info > .prof-name {
+/* font-family: "Computer Modern Dunhill", "Computer Modern", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif; */
+   font-family: Futura, "Century Gothic", Geneva, Tahoma, Verdana, Arial, sans-serif;
+   font-family: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Gentium, Palatino, "Palatino Linotype", Didot, serif; /* for non-number things */
+   font-family: var(--computer-modern);
+   font-size: 250%;
+   grid-area: prof-name;
+}
+
+.overall-info > .prof-rank {
+/* font-family: "Computer Modern", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif; */
+   font-family: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Gentium, Palatino, "Palatino Linotype", Didot, serif; /* for non-number things */
+   font-family: var(--computer-modern);
+   font-size: 125%;
+   grid-area: prof-rank;
+}
+
+.overall-info > .university {
+/* font-family: "Computer Modern", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif; */
+   font-family: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Gentium, Palatino, "Palatino Linotype", Didot, serif; /* for non-number things */
+   font-family: var(--computer-modern);
+   font-size: 125%;
+   grid-area: university;
+}
+
+.overall-info > .university-logo {
+   grid-area: university-logo;
+   justify-self: center;
+   margin: 0em 1em;
+}
+
+.url {
+   font-family: Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+}
+
+::selection {
+   background-color: rgb(255, 255, 170);
+}
