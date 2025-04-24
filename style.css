@@ -2,6 +2,7 @@
 
 :root {
    --computer-modern: "Computer Modern Dunhill", "Computer Modern", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "TeX Gyre Schola", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
+   --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
    --no-numbers: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Palatino, "Palatino Linotype", Gentium, Didot, serif; /* for text without numbers */
    --railway: Railway, Futura, "Century Gothic", Geneva, Tahoma, Verdana, sans-serif;
    --with-numbers: Palatino, "Palatino Linotype", Gentium, Didot, serif; /* for text with numbers */
@@ -174,7 +175,7 @@ table.schedule td.office {
 }
 
 .email {
-   font-family: Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+   font-family: var(--monospace);
 }
 
 .endtag {
@@ -230,7 +231,7 @@ table.schedule td.office {
 }
 
 .url {
-   font-family: Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+   font-family: var(--monospace);
 }
 
 ::selection {
