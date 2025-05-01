@@ -188,10 +188,10 @@ table.schedule td.office {
    align-items: center;
    display: grid;
    grid-template-areas:
-      "prof-name university-logo prof-rank"
-      "prof-name university-logo department"
-      "prof-name university-logo college"
-      "prof-name university-logo university";
+      "prof-name fractal-image prof-rank"
+      "prof-name fractal-image department"
+      "prof-name fractal-image college"
+      "prof-name fractal-image university";
 }
 
 .overall-info > .college {
@@ -224,8 +224,8 @@ table.schedule td.office {
    grid-area: university;
 }
 
-.overall-info > .university-logo {
-   grid-area: university-logo;
+.overall-info > .fractal-image {
+   grid-area: fractal-image;
    justify-self: center;
    margin: 0em 1em;
 }
