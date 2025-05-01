@@ -188,10 +188,10 @@ table.schedule td.office {
    align-items: center;
    display: grid;
    grid-template-areas:
-      "prof-name       university-logo prof-rank"
-      "prof-name       university-logo department"
-      "prof-name       university-logo college"
-      "prof-name       university-logo university"
+      "prof-name university-logo prof-rank"
+      "prof-name university-logo department"
+      "prof-name university-logo college"
+      "prof-name university-logo university";
 }
 
 .overall-info > .college {
