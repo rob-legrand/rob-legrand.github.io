@@ -186,48 +186,25 @@ table.schedule td.office {
 
 .overall-info {
    align-items: center;
-   display: grid;
-   grid-template-areas:
-      "prof-name fractal-image prof-rank"
-      "prof-name fractal-image department"
-      "prof-name fractal-image college"
-      "prof-name fractal-image university";
-}
-
-.overall-info > .college {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
    font-family: var(--computer-modern);
    font-size: 125%;
-   grid-area: college;
+   gap: 10px;
+   justify-content: center;
 }
 
-.overall-info > .department {
-   font-family: var(--computer-modern);
-   font-size: 125%;
-   grid-area: department;
+.overall-info > div {
+   align-items: flex-start;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
-.overall-info > .prof-name {
-   font-family: var(--computer-modern);
-   font-size: 250%;
-   grid-area: prof-name;
-}
-
-.overall-info > .prof-rank {
-   font-family: var(--computer-modern);
-   font-size: 125%;
-   grid-area: prof-rank;
-}
-
-.overall-info > .university {
-   font-family: var(--computer-modern);
-   font-size: 125%;
-   grid-area: university;
-}
-
-.overall-info > .fractal-image {
-   grid-area: fractal-image;
-   justify-self: center;
-   margin: 0em 1em;
+.overall-info > div:first-child {
+   font-size: 200%;
 }
 
 .url {
