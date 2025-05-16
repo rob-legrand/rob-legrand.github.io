@@ -65,83 +65,6 @@ p.extra-info {
    text-align: center;
 }
 
-table {
-   border-collapse: separate;
-   border-color: #d0e0f0;
-   border-spacing: 1px;
-   border-style: outset;
-   border-width: thin;
-   empty-cells: show;
-}
-
-table td, table th {
-   border-color: #d0e0f0;
-   border-style: inset;
-   border-width: thin;
-   padding: 3px 9px;
-}
-
-table ul {
-   margin: 0px 0px 0px 1.5em;
-   padding: 0px;
-}
-
-table.courses td, table.courses th {
-   padding: 9px;
-}
-
-table.finals-week {
-   text-align: center;
-}
-
-table.schedule {
-   text-align: center;
-}
-
-table.schedule td.classroom {
-   border-color: #50b050;
-   border-style: solid;
-   border-width: medium;
-}
-
-table.schedule td.meal {
-   border-color: #6060a0;
-   border-style: solid;
-   border-width: medium;
-}
-
-table.schedule td.office {
-   border-color: #a85858;
-   border-style: solid;
-   border-width: medium;
-}
-
-.contact-info {
-   align-items: center;
-   display: grid;
-   grid-template-areas:
-      "email-address"
-      "office-phone"
-      "office-location"
-      "office-hours";
-}
-
-.contact-info > .email-address {
-   grid-area: email-address;
-}
-
-.contact-info > .office-hours {
-   grid-area: office-hours;
-}
-
-.contact-info > .office-location {
-   grid-area: office-location;
-}
-
-.contact-info > .office-phone {
-   grid-area: office-phone;
-}
-
 .education {
    align-items: center;
    display: grid;
@@ -178,12 +101,6 @@ table.schedule td.office {
    font-family: var(--monospace);
 }
 
-.endtag {
-   font-size: 60%;
-   font-style: italic;
-   margin-left: 2em;
-}
-
 .overall-info {
    align-items: center;
    display: flex;
@@ -205,10 +122,6 @@ table.schedule td.office {
 
 .overall-info > div:first-child {
    font-size: 200%;
-}
-
-.url {
-   font-family: var(--monospace);
 }
 
 ::selection {
