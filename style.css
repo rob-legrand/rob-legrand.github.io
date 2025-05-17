@@ -44,7 +44,6 @@ body {
 
 fieldset {
    background-color: rgb(240, 245, 250);
-   background-image: none;
    border-color: rgb(165, 195, 225);
    border-style: solid;
    border-width: 1px 0px;
@@ -53,11 +52,8 @@ fieldset {
 
 legend {
    background-color: rgb(240, 245, 250);
-   background-image: none;
-   border: none;
    font-family: var(--with-numbers);
    font-size: 150%;
-   margin: none;
    padding: 3px 9px;
 }
 
