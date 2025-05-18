@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Cantarell&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rokkitt&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+
+@font-face {
+   font-family: "Chunkfive";
+   src: local("Chunkfive"), url(Chunkfive-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Computer Modern";
+   src: local("Computer Modern"), url(cmr10.ttf) format("truetype");
+}
+
+@font-face {
+   font-family: "Computer Modern Dunhill";
+   src: local("Computer Modern Dunhill"), url(cmdunh10.ttf) format("truetype");
+}
+
+@font-face {
+   font-family: "Computer Modern sans-serif";
+   src: local("Computer Modern sans-serif"), url(cmss10.ttf) format("truetype");
+}
+
+@font-face {
+   font-family: "Computer Modern small caps";
+   src: local("Computer Modern small caps"), url(cmcsc10.ttf) format("truetype");
+}
+
+@font-face {
+   font-family: "Digital Dream";
+   src: local("Digital Dream"), url(digitaldreamnarrow.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Kingthings Calligraphica";
+   src: local("Kingthings Calligraphica"), url(Kingthings_Calligraphica_2-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Kingthings Calligraphica Italic";
+   src: local("Kingthings Calligraphica Italic"), url(Kingthings_Calligraphica_Italic-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Kingthings Calligraphica Light";
+   src: local("Kingthings Calligraphica Light"), url(Kingthings_Calligraphica_Light-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Playbill";
+   src: local("Playbill"), url(Playbill.ttf) format("truetype");
+}
+
+@font-face {
+   font-family: Railway;
+   src: local("Railway"), url(railway.woff) format("woff");
+}
+
+@font-face {
+   font-family: "TeX Gyre Schola";
+   font-style: italic;
+   font-weight: bold;
+   src: local("TeX Gyre Schola"), url(texgyreschola-bolditalic.woff) format("woff");
+}
+
+@font-face {
+   font-family: "TeX Gyre Schola";
+   font-style: italic;
+   font-weight: normal;
+   src: local("TeX Gyre Schola"), url(texgyreschola-italic.woff) format("woff");
+}
+
+@font-face {
+   font-family: "TeX Gyre Schola";
+   font-style: normal;
+   font-weight: bold;
+   src: local("TeX Gyre Schola"), url(texgyreschola-bold.woff) format("woff");
+}
+
+@font-face {
+   font-family: "TeX Gyre Schola";
+   font-style: normal;
+   font-weight: normal;
+   src: local("TeX Gyre Schola"), url(texgyreschola-regular.woff) format("woff");
+}
