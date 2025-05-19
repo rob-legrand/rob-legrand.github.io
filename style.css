@@ -1,12 +1,15 @@
 @charset "UTF-8";
 
+@import url(/fonts/fonts.css);
+
 :root {
    --background-color: rgb(240, 245, 250);
-   --computer-modern: "Computer Modern Dunhill", "Computer Modern", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "TeX Gyre Schola", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
-   --no-numbers: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Palatino, "Palatino Linotype", Gentium, Didot, serif; /* for text without numbers */
    --railway: Railway, Futura, "Century Gothic", Geneva, Tahoma, Verdana, sans-serif;
-   --with-numbers: Palatino, "Palatino Linotype", Gentium, Didot, serif; /* for text with numbers */
+   --serif-no-numbers: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Palatino, "Palatino Linotype", Gentium, Didot, serif;
+   --serif-with-numbers: Palatino, "Palatino Linotype", Gentium, Didot, serif;
+   --tall-tex: "Computer Modern Dunhill", "Computer Modern", "TeX Gyre Schola", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
+   --tex: "Computer Modern", "TeX Gyre Schola", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
 }
 
 a {
@@ -38,7 +41,7 @@ body {
    color: rgb(0, 30, 60);
    display: flex;
    flex-wrap: wrap;
-   font-family: var(--with-numbers);
+   font-family: var(--serif-with-numbers);
    justify-content: center;
    text-rendering: optimizeLegibility;
 }
@@ -53,7 +56,7 @@ fieldset {
 
 legend {
    background-color: var(--background-color);
-   font-family: var(--with-numbers);
+   font-family: var(--serif-with-numbers);
    font-size: 150%;
    padding: 3px 9px;
 }
@@ -103,7 +106,7 @@ p.extra-info {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   font-family: var(--computer-modern);
+   font-family: var(--tex);
    font-size: 125%;
    gap: 10px;
    justify-content: center;
@@ -118,6 +121,7 @@ p.extra-info {
 }
 
 .overall-info > div:first-child {
+   font-family: var(--tall-tex);
    font-size: 200%;
 }
 
