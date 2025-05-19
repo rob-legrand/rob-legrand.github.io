@@ -37,7 +37,7 @@ a:active {
 body {
    align-items: center;
    background-color: var(--background-color);
-   background-image: url(frac.gif);
+   background-image: url(frac1024light.png);
    color: rgb(0, 30, 60);
    display: flex;
    flex-wrap: wrap;
