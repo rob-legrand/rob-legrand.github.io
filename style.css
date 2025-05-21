@@ -61,10 +61,6 @@ legend {
    padding: 3px 9px;
 }
 
-p.extra-info {
-   text-align: center;
-}
-
 .education {
    align-items: center;
    display: grid;
@@ -99,6 +95,15 @@ p.extra-info {
 
 .email {
    font-family: var(--monospace);
+}
+
+.other-resources {
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 0px 3em;
+   justify-content: flex-start;
 }
 
 .overall-info {
