@@ -133,3 +133,36 @@ legend {
 ::selection {
    background-color: rgb(255, 255, 170);
 }
+
+@media screen and (prefers-color-scheme: dark) {
+   a:link {
+      color: rgb(210, 195, 180);
+   }
+
+   a:visited {
+      color: rgb(180, 195, 210);
+   }
+
+   a:active {
+      color: rgb(195, 195, 195);
+   }
+
+   body {
+      background-color: rgb(10, 20, 30);
+      background-image: url(frac1024dark.png);
+      color: rgb(230, 240, 250);
+   }
+
+   fieldset {
+      background-color: rgb(10, 20, 30);
+      border-color: rgb(30, 60, 90);
+   }
+
+   legend {
+      background-color: rgb(10, 20, 30);
+   }
+
+   ::selection {
+      background-color: rgb(90, 90, 30);
+   }
+}
