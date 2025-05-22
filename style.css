@@ -10,6 +10,7 @@
    --serif-with-numbers: Palatino, "Palatino Linotype", Gentium, Didot, serif;
    --tall-tex: "Computer Modern Dunhill", "Computer Modern", "TeX Gyre Schola", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
    --tex: "Computer Modern", "TeX Gyre Schola", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
+   color-scheme: dark light;
 }
 
 a {
