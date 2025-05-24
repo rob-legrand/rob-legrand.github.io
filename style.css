@@ -50,7 +50,7 @@ a:active {
 body {
    align-items: center;
    background-color: var(--background-color);
-   background-image: url(frac1024light.png);
+   background-image: url(frac1024dark.png);
    color: light-dark(
       rgb(0, 30, 60),
       rgb(230, 240, 250)
@@ -156,8 +156,8 @@ legend {
    );
 }
 
-@media screen and (prefers-color-scheme: dark) {
+@media screen and (prefers-color-scheme: light) {
    body {
-      background-image: url(frac1024dark.png);
+      background-image: url(frac1024light.png);
    }
 }
