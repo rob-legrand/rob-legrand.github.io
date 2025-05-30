@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url(fonts.css);
+
+body {
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-rendering: optimizeLegibility;
+}
+
+div div {
+   border-color: rgb(0, 0, 0);
+   border-style: solid;
+   border-width: 1px;
+   font-size: 400%;
+   padding: 5px;
+   text-align: center;
+}
+
+.cantarell {
+   font-family: Cantarell, cursive;
+}
+
+.chunkfive {
+   font-family: Chunkfive, cursive;
+}
+
+.consolas {
+   font-family: Consolas, Inconsolata, Monaco, "Andale Mono", AndaleMono, monospace;
+   font-family: Consolas, cursive;
+}
+
+.digital-dream {
+   font-family: "Digital Dream", cursive;
+}
+
+.inconsolata {
+   font-family: Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+   font-family: Inconsolata, cursive;
+}
+
+.noto-sans-mono {
+   font-family: "Noto Sans Mono", Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+   font-family: "Noto Sans Mono", cursive;
+}
+
+.playbill {
+   font-family: Playbill, cursive;
+}
+
+.railway {
+   font-family: Railway, Futura, Geneva, Tahoma, Verdana, Helvetica, sans-serif;
+   font-family: Railway, cursive;
+}
+
+.rokkitt {
+   font-family: Rokkitt, Futura, Geneva, Tahoma, Verdana, Helvetica, sans-serif;
+   font-family: Rokkitt, cursive;
+}
+
+.rubik {
+   font-family: Rubik, cursive;
+}
+
+.tex-gyre-schola {
+   font-family: "TeX Gyre Schola", "Computer Modern Dunhill", "Computer Modern", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
+   font-family: "TeX Gyre Schola", cursive;
+}
