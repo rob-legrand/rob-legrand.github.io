@@ -2,15 +2,24 @@
 
 document.addEventListener('DOMContentLoaded', function () {
    'use strict';
+   let profNameFontFamilyIndex;
 
    const profNameElement = document.querySelector('#prof-name');
-   const oldFontFamily = profNameElement.style.fontFamily;
+   const profNameFontFamilies = [
+      profNameElement.style.fontFamily,
+      'Digital Dream',
+      'Playbill',
+      'Railway'
+   ];
 
-   profNameElement.addEventListener('mouseover', function () {
-      profNameElement.style.fontFamily = 'Digital Dream';
+   profNameElement.addEventListener('click', function () {
+      profNameFontFamilyIndex = (
+         profNameFontFamilyIndex + 1
+      ) % profNameFontFamilies.length;
+      profNameElement.style.fontFamily = profNameFontFamilies[
+         profNameFontFamilyIndex
+      ];
    });
 
-   profNameElement.addEventListener('mouseout', function () {
-      profNameElement.style.fontFamily = oldFontFamily;
-   });
+   profNameFontFamilyIndex = 0;
 });
