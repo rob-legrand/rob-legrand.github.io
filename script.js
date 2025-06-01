@@ -9,7 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
       profNameElement.style.fontFamily,
       'Digital Dream',
       'Playbill',
-      'Railway'
+      'Computer Modern small caps',
+      'Railway',
+      'Kingthings Calligraphica',
+      'TeX Gyre Schola',
+      'Inconsolata',
+      'Chunkfive'
    ];
 
    profNameElement.addEventListener('click', function () {
