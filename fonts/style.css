@@ -20,6 +20,10 @@ div div {
    text-align: center;
 }
 
+.atkinson-hyperlegible {
+   font-family: "Atkinson Hyperlegible", cursive;
+}
+
 .cantarell {
    font-family: Cantarell, cursive;
 }
