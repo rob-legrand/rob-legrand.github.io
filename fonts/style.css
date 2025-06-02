@@ -79,6 +79,10 @@ div div {
    font-family: "Noto Sans Mono", cursive;
 }
 
+.outfit {
+   font-family: Outfit, cursive;
+}
+
 .playbill {
    font-family: Playbill, cursive;
 }
