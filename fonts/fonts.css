@@ -39,6 +39,34 @@
 }
 
 @font-face {
+   font-family: "Fantasque Sans Mono";
+   font-style: italic;
+   font-weight: bold;
+   src: local("Fantasque Sans Mono"), url(fantasquesansmono-bolditalic-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Fantasque Sans Mono";
+   font-style: italic;
+   font-weight: normal;
+   src: local("Fantasque Sans Mono"), url(fantasquesansmono-italic-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Fantasque Sans Mono";
+   font-style: normal;
+   font-weight: bold;
+   src: local("Fantasque Sans Mono"), url(fantasquesansmono-bold-webfont.woff) format("woff");
+}
+
+@font-face {
+   font-family: "Fantasque Sans Mono";
+   font-style: normal;
+   font-weight: normal;
+   src: local("Fantasque Sans Mono"), url(fantasquesansmono-regular-webfont.woff) format("woff");
+}
+
+@font-face {
    font-family: "Kingthings Calligraphica";
    src: local("Kingthings Calligraphica"), url(Kingthings_Calligraphica_2-webfont.woff) format("woff");
 }
