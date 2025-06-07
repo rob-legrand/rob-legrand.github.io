@@ -151,8 +151,8 @@ legend {
 
 ::selection {
    background-color: light-dark(
-      rgb(255, 255, 170),
-      rgb(90, 90, 30)
+      rgb(255, 225, 195),
+      rgb(60, 30, 0)
    );
 }
 
