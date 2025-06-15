@@ -105,6 +105,10 @@ div div {
    font-family: Rubik, cursive;
 }
 
+.score {
+   font-variant-numeric: tabular-nums;
+}
+
 .smokum {
    font-family: Smokum, cursive;
 }
