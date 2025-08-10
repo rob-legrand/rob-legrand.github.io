@@ -61,6 +61,10 @@ div div {
    font-family: "Fantasque Sans Mono", cursive;
 }
 
+.ibm-plex-sans {
+   font-family: "IBM Plex Sans", cursive;
+}
+
 .inconsolata {
 // font-family: Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
    font-family: Inconsolata, cursive;
