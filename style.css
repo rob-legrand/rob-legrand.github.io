@@ -7,8 +7,8 @@
       rgb(240, 245, 250),
       rgb(10, 20, 30)
    );
+   --geometric: "Century Gothic", Futura, Avenir, Outfit, "League Spartan", "Twentieth Century", Neuzeit, Sofia, "Harmonia Sans", "Museo Sans", Gotham, Radikal, Fredoka, Railway, "Atkinson Hyperlegible", "IBM Plex Sans", Overpass, Rubik, Montserrat, Roboto, Geneva, Tahoma, Verdana, Helvetica, sans-serif;
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
-   --railway: Railway, Futura, "Century Gothic", Geneva, Tahoma, Verdana, sans-serif;
    --serif-no-numbers: Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT", Palatino, "Palatino Linotype", Gentium, Didot, serif;
    --serif-with-numbers: Palatino, "Palatino Linotype", Gentium, Didot, serif;
    --tall-tex: "Computer Modern Dunhill", "Computer Modern", "TeX Gyre Schola", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
