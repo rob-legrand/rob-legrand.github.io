@@ -49,7 +49,7 @@ div div {
 }
 
 .consolas {
-// font-family: Consolas, Inconsolata, Monaco, "Andale Mono", AndaleMono, monospace;
+/* font-family: Consolas, Inconsolata, Monaco, "Andale Mono", AndaleMono, monospace; */
    font-family: Consolas, cursive;
 }
 
@@ -70,7 +70,7 @@ div div {
 }
 
 .inconsolata {
-// font-family: Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+/* font-family: Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace; */
    font-family: Inconsolata, cursive;
 }
 
@@ -95,7 +95,7 @@ div div {
 }
 
 .noto-sans-mono {
-// font-family: "Noto Sans Mono", Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace;
+/* font-family: "Noto Sans Mono", Inconsolata, Consolas, Monaco, "Andale Mono", AndaleMono, monospace; */
    font-family: "Noto Sans Mono", cursive;
 }
 
@@ -112,12 +112,12 @@ div div {
 }
 
 .railway {
-// font-family: Railway, Futura, Geneva, Tahoma, Verdana, Helvetica, sans-serif;
+/* font-family: Railway, Futura, Geneva, Tahoma, Verdana, Helvetica, sans-serif; */
    font-family: Railway, cursive;
 }
 
 .rokkitt {
-// font-family: Rokkitt, Futura, Geneva, Tahoma, Verdana, Helvetica, sans-serif;
+/* font-family: Rokkitt, Futura, Geneva, Tahoma, Verdana, Helvetica, sans-serif; */
    font-family: Rokkitt, cursive;
 }
 
@@ -134,6 +134,6 @@ div div {
 }
 
 .tex-gyre-schola {
-// font-family: "TeX Gyre Schola", "Computer Modern Dunhill", "Computer Modern", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif;
+/* font-family: "TeX Gyre Schola", "Computer Modern Dunhill", "Computer Modern", "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook", "Theano Modern Regular", Garamond, Georgia, Baskerville, Palatino, "Palatino Linotype", Didot, Bodoni, serif; */
    font-family: "TeX Gyre Schola", cursive;
 }
