@@ -18,8 +18,9 @@
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
    --serif-no-numbers:
       Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT",
-      Palatino, "Palatino Linotype", Gentium, Didot, serif;
-   --serif-with-numbers: Palatino, "Palatino Linotype", Gentium, Didot, serif;
+      Palatino, "Palatino Linotype", "Book Antiqua", Gentium, Didot, serif;
+   --serif-with-numbers: Palatino, "Palatino Linotype", "Book Antiqua",
+      Gentium, Didot, serif;
    --tall-tex:
       "Computer Modern Dunhill", "Computer Modern", "TeX Gyre Schola",
       "Century Schoolbook", "Century Schoolbook L", "New Century Schoolbook",
