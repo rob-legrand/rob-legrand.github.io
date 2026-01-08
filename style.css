@@ -18,7 +18,8 @@
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
    --serif-large-x-height:
       Georgia, Palatino, "Palatino Linotype", "Book Antiqua", Baskerville,
-      Minion, Gentium, Bookman, Didot, Bodoni, "Bodoni MT", serif;
+      Minion, Gentium, Bookman, "Bookman Old Style", "URW Bookman",
+      "URW Bookman L", Didot, Bodoni, "Bodoni MT", serif;
    --serif-no-numbers:
       Garamond, "Goudy Old Style", Georgia, Baskerville, Bodoni, "Bodoni MT",
       Palatino, "Palatino Linotype", "Book Antiqua", Gentium, Didot, serif;
