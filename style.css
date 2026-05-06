@@ -11,10 +11,12 @@
       rgb(10, 20, 30)
    );
    --geometric:
-      "Century Gothic", Futura, Avenir, Outfit, "League Spartan", "Twentieth Century",
-      Neuzeit, Sofia, "Harmonia Sans", "Museo Sans", Gotham, Radikal, Fredoka,
+      "Century Gothic", Futura, "URW Gothic", Avenir, Outfit,
+      "League Spartan", "Twentieth Century", Neuzeit, Sofia,
+      "Harmonia Sans", "Museo Sans", Gotham, Radikal, Fredoka,
       Railway, "Atkinson Hyperlegible", "IBM Plex Sans", Overpass, Rubik,
-      Montserrat, Roboto, Geneva, Tahoma, Verdana, Helvetica, sans-serif;
+      Montserrat, Roboto, Corbel, Geneva, Tahoma, Verdana, Helvetica,
+      sans-serif;
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
    --serif-large-x-height:
       Georgia, Palatino, "Palatino Linotype", "Book Antiqua", Baskerville,
